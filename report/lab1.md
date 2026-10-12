@@ -128,7 +128,8 @@ sp 已指向 bootstacktop
 
 **测试截图：**
 
-![测试结果截图](./images/test_result1.png)(./images/test_result2.png)
+![测试结果截图1](./images/test_result1.png)
+![测试结果截图2](./images/test_result2.png)
 
 ---
 
