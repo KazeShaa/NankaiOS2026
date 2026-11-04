@@ -1,0 +1,5 @@
+obj/
+bin/
+*.o
+*.d
+.qemu.*.out
