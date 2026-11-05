@@ -56,7 +56,7 @@
 
     .macro RESTORE_ALL
 
-    #lab3 function1 YOUR CODE
+    #lab3 function1 2412350
     # 先从栈上恢复 4 个 CSR 相关字段：status / epc / badvaddr / cause
     LOAD s1, 32*REGBYTES(sp)
     LOAD s2, 33*REGBYTES(sp)
@@ -109,7 +109,7 @@
 __alltraps:
     SAVE_ALL
 
-    #lab3 function1 YOUR CODE
+    #lab3 function1 2412350
     # 把 trapframe 指针作为参数传给 trap()
     move a0, sp
     jal trap

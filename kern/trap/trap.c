@@ -86,7 +86,7 @@ void print_regs(struct pushregs *gpr) {
     cprintf("  t6       0x%08x\n", gpr->t6);
 }
 
-//lab3 function2 YOUR CODE
+//lab3 function2 2412350
 
 // 根据 RISC-V 指令编码规则判断当前指令长度：
 // 最低两位为 0b11 表示 4 字节(32 位)指令，否则为 2 字节(16 位压缩)指令
